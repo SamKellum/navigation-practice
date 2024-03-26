@@ -1,0 +1,54 @@
+header h1{
+    font-size: 48px
+    color: white;
+    text-align: center;
+}
+
+header nav ul {
+    font-family: "Montserrat";
+    display: flex;
+    color: white;
+    list-style: none;
+    text-align: center;
+  }
+
+  header nav ul li a {
+    display: flex;
+    color: #fff;
+    text-decoration: none;
+    text-align: center;
+    margin: 0 20px 0 0;
+  }
+
+  header {
+    background-color: #0B1C51;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+  }
+
+
+
+  @media all and (min-width: 600px) {
+    header {
+      display: flex;
+      justify-content: space-between;
+      padding: 0 30px;
+      flex-direction: row;
+    }
+  
+    header h1 {
+      margin: 14px 0;
+      padding-top: 0;
+      font-size: 52px
+      text-align: center;
+    }
+  
+    header nav {
+      margin-top: 8px;
+    }
+    header nav ul li a:hover {
+      color: #bdbdbd;
+    }
+  }
